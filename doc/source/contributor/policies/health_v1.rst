@@ -19,6 +19,9 @@ Health Policy V1.0
 The health policy is designed to automate the failure detection and recovery
 process for a cluster.
 
+.. policydoc::
+    :policy_package: senlin.policies.health_policy.HealthPolicy
+
 
 Applicable Profile Types
 ~~~~~~~~~~~~~~~~~~~~~~~~

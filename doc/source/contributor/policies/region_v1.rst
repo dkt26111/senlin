@@ -19,6 +19,9 @@ Region Placement Policy V1.0
 This policy is designed to make sure the nodes in a cluster are distributed
 across multiple regions according to a specified scheme.
 
+.. policydoc::
+    :policy_package: senlin.policies.region_placement.RegionPlacementPolicy
+
 
 Applicable Profiles
 ~~~~~~~~~~~~~~~~~~~

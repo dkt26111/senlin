@@ -19,6 +19,9 @@ Zone Placement Policy V1.0
 This policy is designed to make sure the nodes in a cluster are distributed
 across multiple availability zones according to a specified scheme.
 
+.. policydoc::
+    :policy_package: senlin.policies.zone_placement.ZonePlacementPolicy
+
 
 Applicable Profiles
 ~~~~~~~~~~~~~~~~~~~

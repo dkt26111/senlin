@@ -28,6 +28,9 @@ parameters for such a request.
 Note that when calculating the target capacity of the cluster, Senlin only
 considers the **ACTIVE** nodes.
 
+.. policydoc::
+    :policy_package: senlin.policies.scaling_policy.ScalingPolicy
+
 
 Applicable Profiles
 ~~~~~~~~~~~~~~~~~~~
